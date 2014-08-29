@@ -1,7 +1,7 @@
 from Tkinter import *
 
 def show_entry_fields():
-   print("Start Date: %s\nEnd Date: %s" % (e1.get(), e2.get()))
+   print("Start Date: %s\nEnd Date: %s\n" % (e1.get(), e2.get()))
 
 master = Tk()
 Label(master, text="Start Date:").grid(row=0, column=0)
