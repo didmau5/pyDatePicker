@@ -7,10 +7,10 @@ class Application:
         frame = Frame(master)
         frame.pack()
 
-        self.button = Button(frame, text="QUIT", fg="red", command=frame.quit)
-        self.button.pack(side=LEFT)
+        self.button = Button(frame, text="Quit", command=frame.quit)
+        self.button.pack(side=RIGHT)
 
-        self.hi_there = Button(frame, text="Hello", command=frame.quit)
+        self.hi_there = Button(frame, text="Submit")
         self.hi_there.pack(side=LEFT)
 		
 #	def say_hi(self):
@@ -28,4 +28,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-	
